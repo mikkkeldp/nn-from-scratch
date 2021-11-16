@@ -13,17 +13,17 @@ The data preprocessing includes:
 ## Background
 We will be using a sigmoid activation given by:
 <div style='text-align: center;'>
-<img src="https://latex.codecogs.com/png.latex?\sigma(z) = \frac{1}{1 + e^{-z}}" />
+<img src="https://latex.codecogs.com/png.latex?\sigma(z)=\frac{1}{1+e^{-z}}" />
 </div>
 
 For our cost function, we will be using cross-entropy. For a single example the cost will be:
 <div style='text-align: center;'>
-<img src="https://latex.codecogs.com/png.latex?L(y,\hat{y}) = - \sum^n_{i=0} y_i 
+<img src="https://latex.codecogs.com/png.latex?L(y,\hat{y})=-\sum^n_{i=0}y_i 
 \log ( \hat{y}_i )" />
 </div>
 And for a set of m examples:
 <div style='text-align: center;'>
-<img src="https://latex.codecogs.com/png.latex?L(Y,\hat{Y}) = -1/m \sum^m_{i=1} \sum^n_{i=1} y_i^{(i)} 
+<img src="https://latex.codecogs.com/png.latex?L(Y,\hat{Y})=-1/m\sum^m_{i=1}\sum^n{i=1}y_i^{(i)} 
 \log ( \hat{y}_i^{(i)} )"/>
 </div>
 
@@ -31,11 +31,11 @@ And for a set of m examples:
 ## Forward propagation
 For the layers (exluding the final layer), the forward propagation is given by
 <div style='text-align: center;'>
- <img src="https://latex.codecogs.com/png.latex?\hat{y} = \sigma(w^Tx+b)" />
+ <img src="https://latex.codecogs.com/png.latex?\hat{y}=\sigma(w^Tx+b)" />
 </div>
 By stacking examples, we vectorize the input and get a forward propagation equation of
 <div style='text-align: center;'>
- <img src="https://latex.codecogs.com/png.latex?\hat{y} = \sigma(w^TX+b)" />
+ <img src="https://latex.codecogs.com/png.latex?\hat{y}=\sigma(w^TX+b)" />
 </div>
 For our final layer (softmax layer), the final activations are the exponentials of its z-values
 <div style='text-align: center;'>
@@ -46,19 +46,19 @@ For our final layer (softmax layer), the final activations are the exponentials 
 
 The back propagation is given by:
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial w_j} = (\hat{y} - y)w_j" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialw_j}=(\hat{y}-y)w_j" > 
 </div>
 For the vectorized form with m training examples:
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial w_j} = \frac{1}{m} X(\hat{y} - y)^T" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialw_j}=\frac{1}{m}X(\hat{y}-y)^T" > 
 </div>
 Similarly we can calculate the bias term
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial b} = (\hat{y} - y)" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialb}=(\hat{y}-y)" > 
 </div>
 and in vectorized form
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial b} = \frac{1}{m} \sum_{i=1}^m(\hat{y}^i - y^i)" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialb}=\frac{1}{m}\sum_{i=1}^m(\hat{y}^i-y^i)" > 
 </div>
 
 For more a more in-depth explanation see [these slides](https://nthu-datalab.github.io/ml/slides/10_NN_Design.pdf).
