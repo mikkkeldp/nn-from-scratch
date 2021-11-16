@@ -44,7 +44,7 @@ For our final layer (softmax layer), the final activations are the exponentials 
 
 The back propagation is given by:
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial w_j}=(\hat{y}-y)w_j" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partial{L}}{\partial{w_{j}}}=(\hat{y}-y)w_j" > 
 </div>
 For the vectorized form with m training examples:
 <div style='text-align: center;'>
