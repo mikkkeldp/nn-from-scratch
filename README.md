@@ -52,11 +52,11 @@ For the vectorized form with m training examples:
 </div>
 Similarly we can calculate the bias term
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialb}=(\hat{y}-y)" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partial{L}}{\partial{b}}=(\hat{y}-y)" > 
 </div>
 and in vectorized form
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialb}=\frac{1}{m}\sum_{i=1}^m(\hat{y}^i-y^i)" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partial{L}}{\partial{b}}=\frac{1}{m}\sum_{i=1}^m(\hat{y}^i-y^i)" > 
 </div>
 
 For more a more in-depth explanation see [these slides](https://nthu-datalab.github.io/ml/slides/10_NN_Design.pdf).
