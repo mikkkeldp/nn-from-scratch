@@ -48,7 +48,7 @@ The back propagation is given by:
 </div>
 For the vectorized form with m training examples:
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partialL}{\partialw_j}=\frac{1}{m}X(\hat{y}-y)^T" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partial{L}}{\partial{w_j}}=\frac{1}{m}X(\hat{y}-y)^T" > 
 </div>
 Similarly we can calculate the bias term
 <div style='text-align: center;'>
