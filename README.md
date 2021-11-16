@@ -19,12 +19,12 @@ We will be using a sigmoid activation given by:
 For our cost function, we will be using cross-entropy. For a single example the cost will be:
 <div style='text-align: center;'>
 <img src="https://latex.codecogs.com/png.latex?L(y,\hat{y})=-\sum^n_{i=0}y_i 
-\log ( \hat{y}_i )" />
+\log(\hat{y}_i)" />
 </div>
 And for a set of m examples:
 <div style='text-align: center;'>
 <img src="https://latex.codecogs.com/png.latex?L(Y,\hat{Y})=-1/m\sum^m_{i=1}\sum^n{i=1}y_i^{(i)} 
-\log ( \hat{y}_i^{(i)} )"/>
+\log(\hat{y}_i^{(i)})"/>
 </div>
 
 
