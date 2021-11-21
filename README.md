@@ -24,6 +24,9 @@ And for a set of m examples:
 <div style='text-align: center;'>
 <img src="https://render.githubusercontent.com/render/math?math=L(Y,\hat{Y})={-1/m}\sum^{m}_{i=1}\sum^{n}_{i=1}y_{i}^{(i)}\log(\hat{y}_{i}^{(i)})"/>
 </div>
+<div style='text-align: center;'>
+<img src="https://render.githubusercontent.com/render/math?math=L(y,\hat{y})=-\sum^n_{i=0}y_i\log(\hat{y}_i)"/>
+</div>
 
 ## Forward propagation
 For the layers (exluding the final layer), the forward propagation is given by
