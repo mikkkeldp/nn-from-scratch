@@ -27,9 +27,6 @@ And for a set of m examples:
 <div style='text-align: center;'>
 <img src="https://latex.codecogs.com/png.latex?L(y,\hat{y})=\frac{-1}{m}\sum^n_{i=0}y_i\log(\hat{y}_i)" />
 </div>
-<div style='text-align: center;'>
-<img src="https://latex.codecogs.com/png.latex?L(y,\hat{y})=-\sum^n_{i=0}y_i\log(\hat{y}_i)" />
-</div>
 
 ## Forward propagation
 For the layers (exluding the final layer), the forward propagation is given by
