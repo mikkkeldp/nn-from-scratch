@@ -53,7 +53,7 @@ For the vectorized form with m training examples:
 </div>
 Similarly we can calculate the bias term
 <div style='text-align: center;'>
-<img  src="https://latex.codecogs.com/png.latex?\frac{\partial L}{\partial b}=(\hat{y}-y)" > 
+<img  src="https://latex.codecogs.com/png.latex?\frac{\partial{L}}{\partial{b}}=(\hat{y}-y)" > 
 </div>
 and in vectorized form
 <div style='text-align: center;'>
