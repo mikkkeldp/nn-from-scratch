@@ -37,7 +37,7 @@ By stacking examples, we vectorize the input and get a forward propagation equat
 </div>
 For our final layer (softmax layer), the final activations are the exponentials of its z-values
 <div style='text-align: center;'>
-<img src="https://render.githubusercontent.com/render/math?math=\hat{y}=\frac{e^{z_{i}}}{\sum^{9}_{i=0}e^{z_j}" />
+<img src="https://render.githubusercontent.com/render/math?math=\hat{y}=\frac{e^{z_{i}}{\sum^{9}_{i=0}e^{z_j}" />
 </div>
 
 ## Backwards propagation
