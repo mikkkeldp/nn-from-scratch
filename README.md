@@ -22,7 +22,7 @@ For our cost function, we will be using cross-entropy. For a single example the 
 </div>
 And for a set of m examples:
 <div style='text-align: center;'>
-<img src="https://latex.codecogs.com/png.latex?L(Y,\hat{Y})=-1/m\sum^{m}_{i=1}\sum^{n}_{i=1}y_i^{(i)}\log(\hat{y}_i^{(i)})"/>
+<img src="https://latex.codecogs.com/png.latex?L(Y,\hat{Y})={-1/m}\sum^{m}_{i=1}\sum^{n}_{i=1}y_{i}^{(i)}\log(\hat{y}_{i}^{(i)})"/>
 </div>
 
 
