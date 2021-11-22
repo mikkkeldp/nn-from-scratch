@@ -1,6 +1,6 @@
 # Building a neural network from scratch
 
-In this project, I'll be building a simple, single layered neural network that classifies handwritten digits. We will ve making use of the MNIST dataset. The images have a size of 28x28 (single channel). The only package I'll be making use of is numpy.
+In this project, I'll be building a simple, single layered neural network that classifies handwritten digits. I'll be making use of the MNIST dataset. The images have a size of 28x28 (single channel). The only package I'll be making use of is numpy.
 
 
 
